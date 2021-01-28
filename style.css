@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #726a95;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 10px;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  margin: 10px 0 20px;
+  text-align: center;
+ 
+}
+
+.container {
+  background: #351f39;
+  box-shadow: 5px 5px 10px rgba(255,255, 255, 0.2);
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+}
+
+.result-container {
+  background: rgba(0,0,0, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  }
+
+.result-container  #result {
+  word-wrap: break-word;
+  max-width: cacl(100% - 40%);
+  }
+
+.result-container .btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+  .btn {
+    border: none;
+    background: #719fb0;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .btn-large {
+    display: block;
+    width: 100%;
+  }
+
+  .preference {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    margin: 15px 0;
+    font-size: 12px;
+  }
+
